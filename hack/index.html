@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/ecosoul.jpg" />
+    <title>Organic Store</title>
+    <!-- <style>
+      /* Global Styles */
+    </style> -->
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-container">
+        <div class="logo">
+          <img src="img/organic-logo.png" alt="Organic Store Logo" />
+          <div class="logo-text">
+            ORGANIC
+            <span>STORE</span>
+          </div>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Products">All Products</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact" class="active">Contact</a></li>
+
+          <li>
+            <a href="#">Account <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+
+        <div class="cart-icon">
+          <a href="#"><i class="fas fa-shopping-bag"></i></a>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Homepage Content -->
+    <section class="hero" id="Home">
+      <div class="container">
+        <h1>Join The Organic Movement!</h1>
+        <h2>Welcome to GreenWorld Organic Stores!!</h2>
+        <img src="img/grocery.jpg" alt="Leaf Divider" class="leaf-divider" />
+        <img src="img/g1.avif" alt="Leaf Divider" class="leaf-divider" />
+        <img src="img/g2.avif" alt="Leaf Divider" class="leaf-divider" />
+        <img src="img/g3.avif" alt="Leaf Divider" class="leaf-divider" />
+        <img src="img/g4.avif" alt="Leaf Divider" class="leaf-divider" />
+
+        <p  style="color: white; font-weight: 700; font-size: 18px">
+          Your destination for eco-friendly products
+        </p>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="container features-container">
+        <div class="feature-item">
+          <i class="fas fa-truck"></i>
+          <div>
+            <h4>Free Shipping</h4>
+            <p>Above $100</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-certificate"></i>
+          <div>
+            <h4>Certified Organic</h4>
+            <p>100% Guaranteed</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-tags"></i>
+          <div>
+            <h4>Huge Savings</h4>
+            <p>At Lowest Price</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-undo"></i>
+          <div>
+            <h4>Easy Returns</h4>
+            <p>No Questions Asked</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="Products">
+      <div class="product-container">
+        <h2 class="product-h2">
+          Best Selling Products
+          <!-- <img src="#" alt="Leaf Divider" class="leaf-img" /> -->
+        </h2>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/reusable-bags.jpg" alt="Eco-Bags" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Bags</div>
+              <h3 class="product-title">Reusable Bags</h3>
+              <div class="product-price">
+                <span class="price">£25.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/g5.avif" alt="Hand Sanitizer" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Health</div>
+              <h3 class="product-title">Hand Sanitizer</h3>
+              <div class="product-price">
+                <span class="price">£15.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/bottle.jpg" alt="Water Bottles" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Bottles</div>
+              <h3 class="product-title">Eco-Water Bottles</h3>
+              <div class="product-price">
+                <span class="price">£19.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/bamboo.jpg" alt="Eco-Products" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Health</div>
+              <h3 class="product-title">Bamboo-Products</h3>
+              <div class="product-price">
+                <span class="price">£15.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/g2.avif" alt="Eco-Brush" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Health</div>
+              <h3 class="product-title">Eco-Brush</h3>
+              <div class="product-price">
+                <span class="price">£15.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+                <span class="old-price">£20.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/facewash.jpg" alt="Eco-Facewash" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cosmetics</div>
+              <h3 class="product-title">FaceWash</h3>
+              <div class="product-price">
+                <span class="price">£15.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+                <span class="old-price">£30.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/soap.jpg" alt="Eco-Soaps" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cosmetics</div>
+              <h3 class="product-title">Eco-Soaps</h3>
+              <div class="product-price">
+                <span class="price">£15.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+                <span class="old-price">£25.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="img/oil.jpg" alt="Edible Oil" />
+            </div>
+            <div class="product-info">
+              <div class="product-category">Cooking/Hair-oils</div>
+              <h3 class="product-title">Natural Extracted Edible Oil</h3>
+              <div class="product-price">
+                <span class="price">£25.00</span>
+                <button class="shop-now-btn">Shop Now &rarr;</button>
+                <span class="old-price">£32.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <p
+    style="
+      color: #333;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    "
+  >
+    Try It For Free. No Registration Needed.
+    <button
+      class="shop-now-btn"
+      style="padding: 20px; margin-bottom: 5px; margin-left: 5px"
+    >
+      Try It &rarr;
+    </button>
+  </p>
+    <section class="categories-section ">
+      
+      <div class="category-card">
+        <img src="img/medine.avif" alt="Medicinal Products" />
+        <h3>Medicinal Products</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+
+      <div class="category-card">
+        <img src="img/product2.jpg" alt="HandCraft Eco-Products" />
+        <h3>HandCraft Eco-Products</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+
+      <div class="category-card">
+        <img src="img/solar-powered-devices.jpg" alt="Solar-powered-Products" />
+        <h3>Solar-powered-Products</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+
+      <div class="category-card">
+        <img src="img/indowud.png" alt="Indowud Products" />
+        <h3>Indowud Eco-Friendly Products</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section class="promo-section">
+      <div class="container">
+        <h2>Get 25% Off On Your First Purchase!</h2>
+        <button class="shop-now-btn">Shop Now &rarr;</button>
+      </div>
+    
+    </section>
+
+    
+
+    <!-- More Products Section -->
+    <!-- <section class="products-section">
+      <div class="container">
+        <h2>Trending Products</h2>
+        <img src="#" alt="Leaf Divider" class="leaf-divider" />
+
+        <div class="products-grid">
+          <-- Additional product cards would go here, similar to the ones above -->
+    <!-- </div>
+      </div>
+    </section> -->
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+      <div class="container">
+        <h2
+          style="
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+            background-color: #fae7d0;
+            margin: 60px 0;
+            padding: 50px 0;
+            color: #7b4b2a;
+          "
+        >
+          Customer Reviews
+        </h2>
+
+        <!-- <img src="img/leaf.jpg" alt="Leaf Divider" class="leaf-divider" /> -->
+
+        <div class="reviews-container">
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <div class="reviewer">
+              <img src="img/customer-2.jpg" alt="Reviewer Avatar" />
+              <h4>Mila Kunis</h4>
+            </div>
+          </div>
+
+          <div class="review-card-special-offer">
+            <h3>Deal Of The Day</h3>
+            <h2>15% Off On All Vegetables!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="shop-now-btn">Shop Now &rarr;</button>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+            <div class="reviewer">
+              <img src="img/customer-4.jpg" alt="Reviewer Avatar" />
+              <h4>Mila Sander</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Page Content -->
+    <section class="hero" id="About">
+      <div class="container">
+        <h1>About Us</h1>
+        <!-- <img src="#" alt="Leaf Divider" class="leaf-divider" /> -->
+      </div>
+    </section>
+
+    <section class="about-section container">
+      <h2>We Are Your Favourite Store.</h2>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Tuas quisquam quo gravida proident harum, aptent ligula anim
+            consequuntur, ultrices mauris, nunc volutpates lobortis, varius,
+            potenti placeat! Fuga omnis. Cubilia congue. Recusandae. Vero
+            penatibus quasi! Nostra tenetur dignissimos ultrices natus
+            distinctio ultrices consequuntur numqu.
+          </p>
+          <p>
+            Officiis fuga harum porro et? Similique rhoncus atque! Netus
+            blandinis provident nunc posuere. Rem sequi, commodo, lorem tellus
+            elit, hic sem tenetur anim amet quas, malesuada proident platea
+            corrupti expedita.
+          </p>
+          <p>
+            Integer ducimus gravida ornare sociosqu. Wisi, fringilla voluptat!
+            Ultrices laborum a dapibus, veritats.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="img/img.webp" alt="Fresh Produce" />
+        </div>
+        <div class="about-image">
+          <img src="img/img1.webp" alt="Fresh Produce" />
+        </div>
+        <div class="about-image">
+          <img src="img/img2.webp" alt="Fresh Produce" />
+        </div>
+        <div class="about-image">
+          <img src="img/img3.webp" alt="Fresh Produce" />
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-container">
+          <h2 class="stats-heading">Numbers Speak For Themselves!</h2>
+          <!-- <p>Stats Are Given Below</p> -->
+          <div class="stat-item">
+            <div class="stat-number">5,000+</div>
+            <div>Curated Products</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">800+</div>
+            <div>Curated Products</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">40+</div>
+            <div>Product Categories</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="certified-section container">
+      <div class="certified-badge">
+        <img src="#" alt="Certified Badge" />
+      </div>
+
+      <div class="certified-content">
+        <h3>Certified Products</h3>
+        <p>Click edit button to change this text. Lorem ipsum dolor sit amet</p>
+
+        <h2>We Deal With Various Quality Organic Products!</h2>
+        <img src="#" alt="Leaf Divider" class="leaf-divider" />
+
+        <div class="product-categories">
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Fresh fruits</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Beauty products</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Dry fruits</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Milk products</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Fresh vegetables</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Organic honey</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Dried vegetables</span>
+          </div>
+
+          <div class="category-item">
+            <i class="fas fa-check-circle"></i>
+            <span>Organic tea</span>
+          </div>
+        </div>
+
+        <button class="shop-now-btn">Start Shopping</button>
+      </div>
+    </section> -->
+
+    <!-- Contact Us Page Content -->
+    <section class="hero" id="Contact">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <!-- <img src="#" alt="Leaf Divider" class="leaf-divider" /> -->
+        
+        <section class="contact-info container">
+          <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <p>+123 456 7890</p>
+            <p>+123 456 7890</p>
+          </div>
+          
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <p>info@example.com</p>
+            <p>support@example.com</p>
+          </div>
+          
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>1569 Ave, New York,</p>
+            <p>NY 10028, USA</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- <section class="faq-section container">
+      <h2>Frequently Asked Question!</h2>
+      <img src="#" alt="Leaf Divider" class="leaf-divider" />
+
+      <div class="faq-container">
+        <div class="faq-item">
+          <div>Pulvinar nostrud class cum facillis?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-item">
+          <div>Pon excepturi numquam, facillis?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-item">
+          <div>Pon excepturi numquam, facillis?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-item">
+          <div>Consequat nesciunt fusce facilisi?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-item">
+          <div>Pon excepturi numquam, facillis?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-item">
+          <div>Consequat nesciunt fusce facilisi?</div>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <style>
+     
+  </style>
+
+
+  <footer class="footer">
+      <div class="footer-container">
+          <!-- Left Section -->
+          <div class="footer-left">
+              <div class="footer-logo">
+                  <img src="img/ecosoul.jpg" alt="Organic Store Logo">
+              </div>
+              <p>Click edit button to change this text. Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <!-- Right Section -->
+          <div class="footer-right">
+              <h3>Download Our Mobile App</h3>
+              <p>Milestie residenes neque auctor. Tempor reprehenderit accusantium quibusdam iste accusam.</p>
+              <div class="app-buttons">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google Play">
+                  <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+              </div>
+          </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="copyright">
+          Copyright © 2025 | GreenWorld Organic Store
+          <div class="social-icons">
+            
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a><!-- Facebook -->
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> <!-- Twitter (fixed name) -->
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a> <!-- Instagram -->
+                <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a> <!-- Whatsapp -->
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>  <!-- Linkedin -->
+
+        </div>
+      </div>
+  </footer>
+
+  </body>
+</html>
+              
